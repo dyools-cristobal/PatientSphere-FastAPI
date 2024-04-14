@@ -54,3 +54,25 @@ class Patient(BaseModel):
 
     physical_details: PhysicalDetails
     parent_details: ParentDetails
+
+class User(BaseModel):
+    id: int
+    username: str
+    password: str
+    role_id: int
+    disabled: bool
+
+class UserInDB(User):
+    hashed_password: str
+
+class Role(BaseModel):
+    id: int
+    description: str
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+class TokenData(BaseModel):
+    username: str or None = None # type: ignore
+
