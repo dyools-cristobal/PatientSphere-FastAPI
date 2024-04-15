@@ -68,7 +68,18 @@ class Growth(Base):
     __tablename__ = 'growth'
 
     id = Column(Integer, primary_key=True, index=True)
+    appointment_id = Column(Integer)
     patient_id = Column(Integer)
     date_taken = Column(Date)
     height = Column(Float)
     weight = Column(Float)
+    head_circ = Column(Float)
+    chest_circ = Column(Float)
+    bmi = Column(Float)
+
+class Note(Base):
+    __tablename__ = 'notes'
+
+    id = Column(Integer, primary_key=True, index=True)
+    patient_id = Column(Integer)
+    note = Column(String(500))
