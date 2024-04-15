@@ -1,0 +1,27 @@
+[
+    {
+        "username": "dyools2099",
+        "role_id": 1,
+        "clinic_id": 0
+    },
+    {
+        "username": "clinic_admin1",
+        "role_id": 2,
+        "clinic_id": 6
+    },
+    {
+        "username": "doctor1",
+        "role_id": 3,
+        "clinic_id": 6
+    },
+    {
+        "username": "clinic_admin2",
+        "role_id": 2,
+        "clinic_id": 7
+    },
+    {
+        "username": "doctor1",
+        "role_id": 3,
+        "clinic_id": 7
+    }
+]

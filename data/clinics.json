@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Tarroja Clinic",
+        "address": "BAMC",
+        "phone_number": "123456789"
+    },
+    {
+        "name": "Murcia Clinica",
+        "address": "Brgy Zone III, Murcia",
+        "phone_number": "123456789"
+    }
+]
